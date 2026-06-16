@@ -1,0 +1,328 @@
+const int ldr = A0;
+const int buzzer = 9;
+
+
+// Ultrassônico
+const int echoPin = 10;
+const int trigPin = 11;
+
+
+// Joystick
+const int VRx = A2;
+const int VRy = A3;
+const int SW = 13;
+
+
+// Display
+const int segA = 2;
+const int segB = 3;
+const int segC = 4;
+const int segD = 5;
+const int segE = 6;
+const int segF = 7;
+const int segG = 8;
+
+
+// Configurações
+const int limiteLuz = 1000;
+const int distanciaCorreta = 10;
+
+
+int fase = 1;
+
+
+int etapaJoystick = 0;
+bool esperandoVoltarCentro = false;
+
+
+void setup() {
+  Serial.begin(9600);
+
+
+  pinMode(buzzer, OUTPUT);
+
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+
+
+  pinMode(SW, INPUT_PULLUP);
+
+
+  pinMode(segA, OUTPUT);
+  pinMode(segB, OUTPUT);
+  pinMode(segC, OUTPUT);
+  pinMode(segD, OUTPUT);
+  pinMode(segE, OUTPUT);
+  pinMode(segF, OUTPUT);
+  pinMode(segG, OUTPUT);
+
+
+  mostrar0();
+
+
+  Serial.println("FASE 1 - SENSOR ULTRASSONICO");
+}
+
+
+void loop() {
+  if (fase == 1) {
+    faseUltrassonico();
+  }
+
+
+  if (fase == 2) {
+    faseLaser();
+  }
+
+
+  if (fase == 3) {
+    faseJoystick();
+  }
+
+
+  if (fase == 4) {
+    Serial.println("JOGO CONCLUIDO");
+    while (true);
+  }
+}
+
+
+void faseUltrassonico() {
+  int distancia = medirDistancia();
+
+
+  Serial.print("Distancia: ");
+  Serial.print(distancia);
+  Serial.println(" cm");
+
+
+  if (distancia <= distanciaCorreta) {
+    mostrar2();
+    somSucesso();
+
+
+    Serial.println("FASE 1 CONCLUIDA");
+    Serial.println("NUMERO DESCOBERTO: 2");
+
+
+    delay(7000);
+    mostrar0();
+
+
+    fase = 2;
+    Serial.println("FASE 2 - LASER");
+  }
+
+
+  delay(100);
+}
+
+
+void faseLaser() {
+  int valorLDR = analogRead(ldr);
+
+
+  Serial.print("LDR = ");
+  Serial.println(valorLDR);
+
+
+  if (valorLDR > limiteLuz) {
+    mostrar7();
+    somSucesso();
+
+
+    Serial.println("FASE 2 CONCLUIDA");
+    Serial.println("NUMERO DESCOBERTO: 7");
+
+
+    delay(7000);
+    mostrar0();
+
+
+    fase = 3;
+    Serial.println("FASE 3 - JOYSTICK");
+  }
+
+
+  delay(100);
+}
+
+
+void faseJoystick() {
+  String movimento = lerJoystick();
+
+
+  if (movimento == "CENTRO") {
+    esperandoVoltarCentro = false;
+    return;
+  }
+
+
+  if (esperandoVoltarCentro) {
+    return;
+  }
+
+
+  esperandoVoltarCentro = true;
+
+
+  Serial.print("Movimento: ");
+  Serial.println(movimento);
+
+
+  if (etapaJoystick == 0 && movimento == "ESQUERDA") {
+    etapaJoystick++;
+  }
+  else if (etapaJoystick == 1 && movimento == "ESQUERDA") {
+    etapaJoystick++;
+  }
+  else if (etapaJoystick == 2 && movimento == "CIMA") {
+    etapaJoystick++;
+  }
+  else if (etapaJoystick == 3 && movimento == "BAIXO") {
+    mostrar6();
+    somSucesso();
+
+
+    Serial.println("FASE 3 CONCLUIDA");
+    Serial.println("NUMERO DESCOBERTO: 6");
+
+
+    delay(7000);
+    mostrar0();
+
+
+    fase = 4;
+  }
+  else {
+    etapaJoystick = 0;
+    Serial.println("Sequencia errada. Recomece.");
+  }
+
+
+  delay(150);
+}
+
+
+String lerJoystick() {
+  int x = analogRead(VRx);
+  int y = analogRead(VRy);
+
+
+  if (x < 300) {
+    return "ESQUERDA";
+  }
+  else if (x > 700) {
+    return "DIREITA";
+  }
+  else if (y > 700) {
+    return "CIMA";
+  }
+  else if (y < 300) {
+    return "BAIXO";
+  }
+  else {
+    return "CENTRO";
+  }
+}
+
+
+int medirDistancia() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+
+
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+
+
+  digitalWrite(trigPin, LOW);
+
+
+  long duracao = pulseIn(echoPin, HIGH);
+
+
+  int distancia = duracao * 0.034 / 2;
+
+
+  return distancia;
+}
+
+
+void somSucesso() {
+  int notas[] = {523, 659, 784, 1047, 1319};
+
+
+  for (int i = 0; i < 5; i++) {
+    tone(buzzer, notas[i], 120);
+    delay(140);
+  }
+
+
+  noTone(buzzer);
+}
+
+
+void apagarDisplay() {
+  digitalWrite(segA, LOW);
+  digitalWrite(segB, LOW);
+  digitalWrite(segC, LOW);
+  digitalWrite(segD, LOW);
+  digitalWrite(segE, LOW);
+  digitalWrite(segF, LOW);
+  digitalWrite(segG, LOW);
+}
+
+
+void mostrar0() {
+  apagarDisplay();
+
+
+  digitalWrite(segA, HIGH);
+  digitalWrite(segB, HIGH);
+  digitalWrite(segC, HIGH);
+  digitalWrite(segD, HIGH);
+  digitalWrite(segE, HIGH);
+  digitalWrite(segF, HIGH);
+}
+
+
+void mostrar2() {
+  apagarDisplay();
+
+
+  digitalWrite(segA, HIGH);
+  digitalWrite(segB, HIGH);
+  digitalWrite(segD, HIGH);
+  digitalWrite(segE, HIGH);
+  digitalWrite(segG, HIGH);
+}
+
+
+void mostrar6() {
+  apagarDisplay();
+
+
+  digitalWrite(segA, HIGH);
+  digitalWrite(segC, HIGH);
+  digitalWrite(segD, HIGH);
+  digitalWrite(segE, HIGH);
+  digitalWrite(segF, HIGH);
+  digitalWrite(segG, HIGH);
+}
+
+
+void mostrar7() {
+  apagarDisplay();
+
+
+  digitalWrite(segA, HIGH);
+  digitalWrite(segB, HIGH);
+  digitalWrite(segC, HIGH);
+}
+
+
+
+
+
