@@ -1,11 +1,11 @@
 # Projeto-Meow
 
-Desfio da "Charada dos Gatos". 
+Desfio da <b><i>"Charada dos Gatos"</b></i>. <p>
 
-São 3 desafios, cada desafio vencido revela um número de uma senha.  
+São 3 desafios, cada desafio vencido revela um número de uma senha.  <p>
 
-O primeiro desafio: Encontrar a distância correta no censor. 
-O segundo desafio: Acertar o buraco correto com laser. 
-O terceiro desafio: Fazer a sequência correta de movimentos. 
+<b>O primeiro desafio:</b> Encontrar a distância correta no censor. <p>
+<b>O segundo desafio:</b> Acertar o buraco correto com laser. <p>
+<b>O terceiro desafio:</b> Fazer a sequência correta de movimentos.<p><p> 
 
-A senhar abre o cofre que refeval stickers de gatos reais que estão aguardando adoção! 
+A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguardando adoção! 
