@@ -1,6 +1,6 @@
 # Projeto-Meow
 
-Desfio da <b><i>"Charada dos Gatos"</b></i>. <p>
+Desafio da <b><i>"Charada dos Gatos"</b></i>. <p>
 
 São 3 desafios, cada desafio vencido revela um número de uma senha.  <p>
 
