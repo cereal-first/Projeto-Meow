@@ -23,13 +23,13 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 ## 🌸 Sobre o projeto
 
-O projeto foi feito para uma atividade da cadeira de SISTEMA DIGITAIS do curso de ADS.<p>
-A ideia surgiu do desejo de fazer um projeto fofo e divertido - com um tema que fosse realmente importante para as participantes do grupo. 
-Foi bem rápido chegar até a ideia GATOS, e a partir daí pensar em desafios e uma forma de causa um impacto real com esse projeto. 
-Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para adoção!
+O projeto foi feito para uma atividade da cadeira de SISTEMAS DIGITAIS do curso de ADS.<p>
+A ideia surgiu do desejo de fazer um projeto fofo e divertido - com um tema que fosse realmente importante para as participantes do grupo.<p>
+Foi bem rápido chegar até a ideia GATOS, e a partir daí pensar em desafios e uma forma de causa um impacto real com esse projeto. <p>
+Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para adoção!<p>
 
 > 💡 **Objetivo:**  
-> [Explique aqui o objetivo principal do projeto.]
+> Criar um projeto em arduíno 
 
 ---
 
