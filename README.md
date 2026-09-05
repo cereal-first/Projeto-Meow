@@ -13,7 +13,6 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 <div align="center">
 
-
 <img src="assest/7.png" width="700">
 
 ### Um desafio surpreendente! ✨
@@ -24,7 +23,7 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 ## 🌸 Sobre o projeto
 
-O projeto foi feito para uma atividade da cadeira de SISTEMA DIGITAIS do curso de ADS.
+O projeto foi feito para uma atividade da cadeira de SISTEMA DIGITAIS do curso de ADS.<p>
 A ideia surgiu do desejo de fazer um projeto fofo e divertido - com um tema que fosse realmente importante para as participantes do grupo. 
 Foi bem rápido chegar até a ideia GATOS, e a partir daí pensar em desafios e uma forma de causa um impacto real com esse projeto. 
 Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para adoção!
