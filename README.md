@@ -55,8 +55,9 @@ Resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para ado
 | Sensor LDR | Detecta a variação da intensidade de luz durante a interação. |
 | Buzzer | Emite sinais sonoros como resposta às ações do jogador. |
 | Display de 7 segmentos | Exibe informações visuais durante o jogo. |
-| Tinkercad | Utilizado para prototipagem e simulação do circuito. |
 | Incontáveis jumpers 😵‍💫 | Usados para conectar tudo isso em uma única placa e protoboard. |
+| Tinkercad | Utilizado para prototipagem e simulação do circuito. |
+
 
 
 ---
