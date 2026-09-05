@@ -13,7 +13,8 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 <div align="center">
 
-# 🐱 Charada dos Gatos
+
+<img src="assest/7.png" width="700">
 
 ### Um desafio surpreendente! ✨
 
