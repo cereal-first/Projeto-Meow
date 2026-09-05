@@ -18,8 +18,6 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 ### Um desafio surpreendente! ✨
 
-<img src="assest/7.png" width="700">
-
 </div>
 
 ---
