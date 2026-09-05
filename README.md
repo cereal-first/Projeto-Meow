@@ -45,14 +45,19 @@ Resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para ado
 ---
 
 ## 🛠️ Equipamentos e tecnologias
-🔗  [Protótipo TINKERCAD](https://www.tinkercad.com/things/1wG0w3the4c-projeto-rawr) 
+
+🔗 [Protótipo no Tinkercad](https://www.tinkercad.com/things/1wG0w3the4c-projeto-rawr)
 
 | Equipamento / Tecnologia | Utilização |
 |---|---|
-| Arduino | [Para que foi usado] |
-| [Componente] | [Para que foi usado] |
-| [Componente] | [Para que foi usado] |
-| [Software] | [Para que foi usado] |
+| Arduino Uno | Responsável pelo controle e execução da lógica do projeto. |
+| Protoboard | Utilizada para montar e conectar os componentes do circuito sem a necessidade de solda. |
+| Sensor LDR | Detecta a variação da intensidade de luz durante a interação. |
+| Buzzer | Emite sinais sonoros como resposta às ações do jogador. |
+| Display de 7 segmentos | Exibe informações visuais durante o jogo. |
+| Tinkercad | Utilizado para prototipagem e simulação do circuito. |
+| Incontáveis jumpers 😵‍💫 | Usados para conectar tudo isso em uma única placa e protoboard. |
+
 
 ---
 
