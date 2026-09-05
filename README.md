@@ -66,21 +66,18 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 <table>
 <tr>
 <td align="center">
-  <img src="assest/10.png" width="180"><br>
-  <b>🐱 Nome</b><br>
-  [Informação curtinha]
+  <img src="assest/10.png" width="300"><br>
+ 
 </td>
 
 <td align="center">
-  <img src="assest/11.png" width="180"><br>
-  <b>🐱 Nome</b><br>
-  [Informação curtinha]
+  <img src="assest/11.png" width="300"><br>
+
 </td>
 
 <td align="center">
-  <img src="assest/12.png" width="180"><br>
-  <b>🐱 Nome</b><br>
-  [Informação curtinha]
+  <img src="assest/12.png" width="300"><br>
+ 
 </td>
 </tr>
 </table>
