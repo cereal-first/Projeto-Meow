@@ -25,8 +25,8 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 O projeto foi feito para uma atividade da cadeira de SISTEMAS DIGITAIS do curso de ADS.<p>
 A ideia surgiu do desejo de fazer um projeto fofo e divertido - com um tema que fosse realmente importante para as participantes do grupo.<p>
-Foi bem rápido chegar até a ideia GATOS, e a partir daí pensar em desafios e uma forma de causa um impacto real com esse projeto. <p>
-Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para adoção!<p>
+Foi bem rápido chegar até a ideia GATOS, e a partir daí pensar em desafios e uma forma de causar um impacto real com esse projeto. <p>
+Resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para adoção através do perfil @xxxxxxx!<p>
 
 > 💡 **Objetivo:**  
 > Criar um projeto em arduíno 
@@ -45,6 +45,7 @@ Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão 
 ---
 
 ## 🛠️ Equipamentos e tecnologias
+🔗  [Protótipo TINKERCAD](https://www.tinkercad.com/things/1wG0w3the4c-projeto-rawr) 
 
 | Equipamento / Tecnologia | Utilização |
 |---|---|
@@ -52,18 +53,6 @@ Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão 
 | [Componente] | [Para que foi usado] |
 | [Componente] | [Para que foi usado] |
 | [Software] | [Para que foi usado] |
-
----
-
-## 🎨 Artes do projeto
-
-[Espaço para contar um pouquinho sobre a identidade visual ou simplesmente apresentar as artes.]
-
-<p align="center">
-  <img src="assets/arte-01.png" width="30%">
-  <img src="assets/arte-02.png" width="30%">
-  <img src="assets/arte-03.png" width="30%">
-</p>
 
 ---
 
@@ -130,16 +119,10 @@ Junto com a @xxxxxxx resolvemos fazer um jogo para divulgar gatinhos que estão 
 
 ---
 
-## 💭 O que aprendemos
-
-[Opcional: espaço para falar brevemente sobre os aprendizados do projeto.]
-
----
-
 <div align="center">
 
 ### 🐾 Feito com Arduino, criatividade e muitos gatinhos 🐾
 
-[Projeto acadêmico • Instituição • Ano]
+[Projeto Meow • CESAR SCHOOL • 2026]
 
 </div>
