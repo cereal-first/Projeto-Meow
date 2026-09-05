@@ -66,19 +66,19 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 <table>
 <tr>
 <td align="center">
-  <img src="assest/10.jpg" width="180"><br>
+  <img src="assest/10.png" width="180"><br>
   <b>🐱 Nome</b><br>
   [Informação curtinha]
 </td>
 
 <td align="center">
-  <img src="assest/11.jpg" width="180"><br>
+  <img src="assest/11.png" width="180"><br>
   <b>🐱 Nome</b><br>
   [Informação curtinha]
 </td>
 
 <td align="center">
-  <img src="assest/12.jpg" width="180"><br>
+  <img src="assest/12.png" width="180"><br>
   <b>🐱 Nome</b><br>
   [Informação curtinha]
 </td>
@@ -94,20 +94,6 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 📍 **Local:** [Nome]  
 🐾 **Instagram/Site:** [Link]  
 💌 **Contato:** [Contato]
-
----
-
-## 📸 Galeria do projeto
-
-<p align="center">
-  <img src="assets/foto-01.jpg" width="45%">
-  <img src="assets/foto-02.jpg" width="45%">
-</p>
-
-<p align="center">
-  <img src="assets/foto-03.jpg" width="45%">
-  <img src="assets/foto-04.jpg" width="45%">
-</p>
 
 ---
 
