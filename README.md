@@ -1,16 +1,3 @@
-
-# Projeto-Meow
-
-Desafio da <b><i>"Charada dos Gatos"</b></i>. <p>
-
-São 3 desafios, cada desafio vencido revela um número de uma senha.  <p>
-
-<b>O primeiro desafio:</b> Encontrar a distância correta no sensor. <p>
-<b>O segundo desafio:</b> Acertar o buraco correto com laser. <p>
-<b>O terceiro desafio:</b> Fazer a sequência correta de movimentos.<p><p> 
-
-A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguardando adoção! 
-
 <div align="center">
 
 <img src="assest/7.png" width="700">
@@ -35,11 +22,21 @@ Resolvemos fazer um jogo para divulgar gatinhos que estão disponíveis para ado
 
 ## 🎮 Como funciona?
 
-[Explique brevemente como funciona o jogo/projeto e o que o usuário precisa fazer.]
+
+# Projeto-Meow
+
+Desafio da <b><i>"Charada dos Gatos"</b></i>. <p>
+
+São 3 desafios, cada desafio vencido revela um número de uma senha.  <p>
+
+<b>O primeiro desafio:</b> Encontrar a distância correta no sensor. <p>
+<b>O segundo desafio:</b> Acertar o buraco correto com laser. <p>
+<b>O terceiro desafio:</b> Fazer a sequência correta de movimentos.<p><p> 
+
+A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguardando adoção!
 
 <p align="center">
-  <img src="assets/jogo-01.png" width="45%">
-  <img src="assets/jogo-02.png" width="45%">
+  <img src="assest/3.png" width="45%">
 </p>
 
 ---
