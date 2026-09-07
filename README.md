@@ -78,16 +78,6 @@ A senhar abre o cofre que revela stickers de <b>gatos reais</b> que estão aguar
 
 ---
 
-## 💗 Sobre a iniciativa de adoção
-
-[Apresente aqui o local/projeto/ONG que o trabalho buscou divulgar.]
-
-📍 **Local:** [Nome]  
-🐾 **Instagram/Site:** [Link]  
-💌 **Contato:** [Contato]
-
----
-
 ## 👥 Equipe
 
 | Participante | Responsabilidade |
